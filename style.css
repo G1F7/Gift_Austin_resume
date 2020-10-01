@@ -1,0 +1,259 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #efefef;
+  font-family: sans-serif;
+}
+.profile-img {
+  padding-left: 70%;
+  padding-top: 2%;
+  padding-right: 1%;
+}
+.profile-img img {
+  width: 479px;
+  height: 95%;
+  padding-top: 1px;
+  padding-bottom: 21px;
+  padding-right: 18px;
+  padding-left: -1px;
+  position: fixed;
+}
+.bio {
+  margin-left: 15px;
+  font-size: 19px;
+  line-height: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+a:hover {
+  color: darkblue;
+}
+
+.profile-info {
+  width: 60%;
+  height: 100vh;
+  float: left;
+  padding: 0 30px;
+}
+
+.profile-info h1 {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.social-media img {
+  margin-right: 15px;
+  margin-top: 12px;
+}
+.social-media img {
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+}
+
+h2 {
+  margin-top: 5%;
+  margin-left: 3%;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.competencies img {
+  height: 5%;
+  margin: 5px;
+}
+#html {
+  width: 120px;
+  height: 126px;
+  transition: 1s;
+  cursor: pointer;
+}
+
+#html:hover {
+  transform: scale(1.1);
+}
+#css {
+  width: 100px;
+  height: 126px;
+  transition: 1s;
+  cursor: pointer;
+}
+
+#css:hover {
+  transform: scale(1.1);
+}
+
+#js {
+  width: 170px;
+  height: 126px;
+  transition: 1s;
+  cursor: pointer;
+}
+
+#js:hover {
+  transform: scale(1.1);
+}
+
+#bootstrap {
+  width: 150px;
+  height: 126px;
+  transition: 1s;
+  cursor: pointer;
+}
+
+#bootstrap:hover {
+  transform: scale(1.1);
+}
+
+#jquery {
+  width: 120px;
+  height: 126px;
+  transition: 1s;
+  cursor: pointer;
+}
+
+#jquery:hover {
+  transform: scale(1.1);
+}
+
+#photoshop {
+  width: 150px;
+  height: 126px;
+  transition: 1s;
+  cursor: pointer;
+}
+
+#photoshop:hover {
+  transform: scale(1.1);
+}
+
+.competencies {
+  display: inline-block;
+  width: 28%;
+  padding: 30px 10px;
+  margin: 2%;
+  text-align: center;
+  box-shadow: 0 0 15px 1px rgba(37, 73, 214, 0.18);
+  background: #fff;
+}
+.competencies small {
+  padding-top: 10px;
+  display: block;
+}
+.projects img {
+  height: 150px;
+  width: 150px;
+  padding-left: 12px;
+  margin-left: 3%;
+  margin-top: 2%;
+  box-shadow: 0 0 15px 1px rgba(37, 73, 214, 0.18);
+  background: #fff;
+  transition: 1s;
+  cursor: pointer;
+}
+
+.projects img:hover {
+  transform: scale(1.1);
+}
+
+/*============Contact Details============*/
+#gmail {
+  display: inline-block;
+  height: 140px;
+  width: 148px;
+  padding: 30px 10px;
+  margin: 2%;
+  text-align: center;
+  box-shadow: 0 0 15px 1px rgba(37, 73, 214, 0.18);
+  background: #fff;
+  transition: 1s;
+  cursor: pointer;
+}
+#gmail:hover {
+  transform: scale(1.1);
+}
+
+#whatsapp {
+  display: inline-block;
+  height: 140px;
+  width: 148px;
+  padding: 30px 10px;
+  margin: 2%;
+  text-align: center;
+  box-shadow: 0 0 15px 1px rgba(37, 73, 214, 0.18);
+  background: #fff;
+  transition: 1s;
+  cursor: pointer;
+}
+#whatsapp:hover {
+  transform: scale(1.1);
+}
+
+#facebook {
+  display: inline-block;
+  height: 140px;
+  width: 148px;
+  padding: 30px 10px;
+  margin: 2%;
+  text-align: center;
+  box-shadow: 0 0 15px 1px rgba(37, 73, 214, 0.18);
+  background: #fff;
+  transition: 1s;
+  cursor: pointer;
+}
+#facebook:hover {
+  transform: scale(1.1);
+}
+
+#instagram {
+  display: inline-block;
+  height: 140px;
+  width: 148px;
+  padding: 30px 10px;
+  margin: 2%;
+  text-align: center;
+  box-shadow: 0 0 15px 1px rgba(37, 73, 214, 0.18);
+  background: #fff;
+  transition: 1s;
+  cursor: pointer;
+}
+#instagram:hover {
+  transform: scale(1.1);
+}
+
+#linkdin {
+  display: inline-block;
+  height: 140px;
+  width: 148px;
+  padding: 30px 10px;
+  margin: 2%;
+  text-align: center;
+  box-shadow: 0 0 15px 1px rgba(37, 73, 214, 0.18);
+  background: #fff;
+  transition: 1s;
+  cursor: pointer;
+}
+#linkdin:hover {
+  transform: scale(1.1);
+}
+
+@media only screen and (max-width: 900px) {
+  .profile-info {
+    width: 100%;
+    overflow: inherit;
+  }
+  .profile-img {
+    width: 50%;
+  }
+  .competencies {
+    width: 95%;
+    margin-bottom: 10%;
+  }
+  .competencies img {
+    height: 8%;
+    margin: 10px 0;
+  }
+  .projects img {
+    width: 47%;
+  }
+}
